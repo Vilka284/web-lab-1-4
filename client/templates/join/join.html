@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tronion</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="styles/join.css">
+    <link rel="stylesheet" type="text/css" href="styles/topnav.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="scripts/join/join_request.js"></script>
+</head>
+<body>
+<script src="scripts/onload.js"></script>
+<div class="topnav" id="header">
+    <a class="tronion" href="/">
+			<span>
+					Tronion
+			</span>
+    </a>
+
+    <img src="img/onion.png" title="Thinking onion" align="left">
+
+    <a class="button" href="/profile">
+        <img src="img/prof.png" title="Profile" align="right">
+    </a>
+
+    <a class="button" href="/manage">
+        <span>Manage</span>
+    </a>
+    <a class="button" href="/join">
+        <span>Join</span>
+    </a>
+
+</div>
+
+<script type="text/javascript">
+    window.onscroll = function () {
+        myFunction()
+    };
+    var header = document.getElementById("header");
+    var sticky = header.offsetTop;
+
+    function myFunction() {
+        if (window.pageYOffset > sticky) {
+            header.classList.add("sticky");
+        } else {
+            header.classList.remove("sticky");
+        }
+    }
+</script>
+
+<form id="join-form">
+    <div class="wrapper">
+        <p class="welcome">Enter room id</p>
+        <div id="msg"></div>
+        <div class="group">
+            <input type="text" id="join" style="  height: 43px;
+  width: 90%;
+  border-radius: 10px;
+  border: 1px solid grey;
+  padding-left: 10px;
+  outline: 0;
+  font-size: 20px;
+text-align: center" placeholder="Input 5 digits code.">
+        </div>
+
+        <div class="class-for-grid">
+            <button type="submit">Join</button>
+
+
+        </div>
+
+    </div>
+</form>
+
+</body>
+</html>

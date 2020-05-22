@@ -1,0 +1,8 @@
+#!/media/andrii/ac9ee181-d659-4f84-8a48-2333bfa67764/Files/Git/Tronion/venv/bin/python
+# -*- coding: utf-8 -*-
+import re
+import sys
+from wheel.cli import main
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
+    sys.exit(main())

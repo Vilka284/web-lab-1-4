@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tronion</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="styles/manage.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="scripts/room/submit_request.js"></script>
+    <script src="scripts/room/update_request.js"></script>
+</head>
+<body>
+<script src="scripts/onload.js"></script>
+<div class="topnav" id="header">
+    <a class="tronion" href="/">
+			<span>
+					Tronion
+			</span>
+    </a>
+
+    <img src="img/onion.png" title="Thinking onion" align="left">
+
+    <a class="button" href="/profile">
+        <img src="img/prof.png" title="Profile" align="right">
+    </a>
+
+    <a class="button" href="/manage">
+        <span>Manage</span>
+    </a>
+    <a class="button" href="/join">
+        <span>Join</span>
+    </a>
+
+</div>
+
+<form id="room-form">
+    <div class="reg">
+        <div class="group">
+            <label for="">Enter room name</label>
+            <input type="text" name="name" placeholder="Name" id="name">
+        </div>
+        <div class="group">
+            <label for="">Enter room description</label>
+            <input type="text" name="description" placeholder="Description" id="description">
+        </div>
+        <div id="msg"></div>
+        <div class="reg-submit">
+            <button type="submit">Create</button>
+        </div>
+    </div>
+</form>
+
+<form id="update-form">
+    <div class="reg">
+        <div class="reg-submit">
+        </div>
+        <div class="reg-submit">
+        </div>
+
+    </div>
+</form>
+
+
+</body>
+
+
+</html>

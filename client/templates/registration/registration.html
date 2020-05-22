@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=430, initial-scale=1">
+    <title>Join room</title>
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="styles/topnav.css">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/registration.css') }}">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+    <script src="scripts/registration/reg_request.js"></script>
+</head>
+
+<body>
+    <div class="topnav" id="header">
+        <a class="tronion" href="/">
+            <span>
+                Tronion
+            </span>
+        </a>
+        <img src="img/onion.png" title="Thinking onion" align="left">
+        <a class="button" href="/register">
+            <span>Sign up</span>
+        </a>
+        <span style="font-family: Arial;
+                        display: inline-block;
+                        float: right;
+                        color: #f2f2f2;
+                        text-align: center;
+                        padding: 4px 6px;
+                        text-decoration: none;
+                        font-size: 2vh;">
+            or
+        </span>
+        <a class="button" href="/login">
+            <span>Sign in</span>
+        </a>
+    </div>
+    <div class="wrapper">
+
+    </div>
+    <div class="welcome-registr">
+        <p>Welcome to Tronion</p>
+    </div>
+    <form id="reg-form">
+        <div class="reg">
+            <div class="group">
+                <label for="">Enter Username</label>
+                <input type="text" name="username" placeholder="Username" id="username">
+            </div>
+            <div class="group">
+                <label for="">Enter Email</label>
+                <input type="text" name="email" placeholder="Email" id="email">
+            </div>
+            <div class="group">
+                <label for="">Enter your firstname</label>
+                <input type="text" name="firstname" placeholder="First name" id="first_name">
+            </div>
+            <div class="group">
+                <label for="">Enter your lastname</label>
+                <input type="text" name="lastname" placeholder="Last name" id="last_name">
+            </div>
+            <div class="group">
+                <label for="">Create password</label>
+                <input type="password" name="password" placeholder="Password" id="password">
+            </div>
+            <div class="group">
+                <label for="">Confirm your password</label>
+                <input type="password" name="RepeatPassword" placeholder="Confirm password">
+            </div>
+            <div class="reg-help">
+                <div class="already-have-acc">
+                    <p>Already have an account?</p>
+                    <a href="#sign-in">Sign-in</a>
+                </div>
+                <div class="forgot-pass">
+                    <p>Forgot password?</p>
+                    <a href="#sign-in">Reset now</a>
+                </div>
+            </div>
+            <div class="reg-submit">
+                <button type="submit">Sign-up</button>
+            </div>
+        </div>
+    </form>
+</body>
+
+
+
+</html>

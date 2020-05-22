@@ -1,0 +1,137 @@
+.main {
+    padding-top: 70px;
+}
+
+header nav a {
+    color: white;
+}
+
+.question {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.question p {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.chat-button {
+    border: 0;
+    position: fixed;
+    left: 92%;
+    top: 90%;
+    transform: translate(-92%, -90%);
+    outline: none;
+}
+
+.chat-button:focus {
+    outline: none;
+
+}
+
+.chat {
+    border: 2px solid #dddddd;
+    height: 840px;
+}
+
+.chatHeader p {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.chatMessages {
+    height: 700px;
+    border: 1px solid #dddddd;
+    /*overflow-y: scroll;*/
+}
+
+input[type='text'] {
+    width: 85%;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.chatBottom {
+    margin-top: 20px;
+}
+
+.buttonsClass {
+    padding-top: 60px;
+}
+
+.buttonsClass button {
+    width: 200px;
+    height: 50px;
+    font-size: 14 px;
+}
+
+
+.space {
+    margin-top: 500px;
+}
+
+.wrapper {
+	/*float: right;*/
+	/*background: #e8efef;*/
+	width: 100%;
+	height: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding: 10px;
+}
+
+
+
+
+.container p,ol,ul,li{
+	margin:0;
+	padding:0;
+	border:0;
+	font-size:100%;
+	vertical-align:baseline;
+}
+
+.wrapper::-webkit-scrollbar {
+	width: 5px;
+	background: transparent;
+}
+.wrapper::-webkit-scrollbar-thumb {
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+.container {
+  border: 0;
+  background-color: grey; /*#f1f1f1 */
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    background-color: grey;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    /*float: right;*/
+}
+
+
+
+.wrapper p {
+    margin: 0;
+    word-break: break-all;
+}
+.wrapper span{
+    margin-left: 5px;
+}
+
+
+
+
