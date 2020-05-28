@@ -57,3 +57,5 @@ After this all you need is to do **make .env file** and place this text into it:
 > In scope of this lab students continue practice with single page application. SPA shall be
 > extended with variant specific functionality using static layouts from lab #1. As a result 
 > all features shall be implemented. Code shall meet requirements from lab #3.
+
+## 5. [Add unit tests](https://github.com/Vilka284/web-lab-1-4/tree/master/WebDevelopment/Lab5)
