@@ -17,17 +17,17 @@
 - ### Following functionality shall be covered:
 
   * Login:
-    * [Templates](https://github.com/Vilk284/web-lab-1-4/blob/master/client/templates/login/login.html) | [Scripts](https://github.com/Vilk284/web-lab-1-4/blob/master/client/static/scripts/login/login_request.js) | [Back-end](https://github.com/Vilk284/web-lab-1-4/blob/master/server/user_api/endpoints.py)
+    * [Client](https://github.com/Vilka284/web-lab-1-4/tree/master/client)| [Server](https://github.com/Vilka284/web-lab-1-4/tree/master/server)
     * _Screenshot of login:_
-![alt-текст](https://github.com/Vilk284/web-lab-1-4/raw/master/WebDevelopment/Lab3/img/login.png "Login")
+![alt-текст](https://github.com/Vilka284/web-lab-1-4/blob/master/WebDevelopment/Lab3/img/login.png "Login")
 
   * User roles, 1 - admin 2 - common user: 
-    * [Templates](https://github.com/Vilk284/web-lab-1-4/blob/master/client/templates/room/manage.html) | [DB](https://github.com/Vilk284/web-lab-1-4/blob/master/create_db.sql) | [Back-end](https://github.com/Vilk284/web-lab-1-4/blob/master/server/room_api/endpoints.py)
+    * [Client](https://github.com/Vilka284/web-lab-1-4/tree/master/client)| [Server](https://github.com/Vilka284/web-lab-1-4/tree/master/server)
     * _Screenshot of user roles:_
-![alt-текст](https://github.com/Vilk284/web-lab-1-4/raw/master/WebDevelopment/Lab3/img/user.png "User roles")
+![alt-текст](https://github.com/Vilka284/web-lab-1-4/blob/master/WebDevelopment/Lab3/img/user.png "User roles")
   
   * User CRUD:
-    * [Templates](https://github.com/Vilk284/web-lab-1-4/tree/master/client/templates) | [Scripts](https://github.com/Vilk284/web-lab-1-4/tree/master/client/static/scripts) | [Back-end](https://github.com/Vilk284/web-lab-1-4/tree/master/server)
+    * [Client](https://github.com/Vilka284/web-lab-1-4/tree/master/client)| [Server](https://github.com/Vilka284/web-lab-1-4/tree/master/server)
     * _Screenshot of user roles:_
-![alt-текст](https://github.com/Vilk284/web-lab-1-4/raw/master/WebDevelopment/Lab3/img/register_crud.png "CRUD")
-![alt-текст](https://github.com/Vilk284/web-lab-1-4/raw/master/WebDevelopment/Lab3/img/manage_crud.png "CRUD")
+![alt-текст](https://github.com/Vilka284/web-lab-1-4/blob/master/WebDevelopment/Lab3/img/register_crud.png "CRUD")
+![alt-текст](https://github.com/Vilka284/web-lab-1-4/blob/master/WebDevelopment/Lab3/img/manage_crud.png "CRUD")

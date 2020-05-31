@@ -7,12 +7,12 @@
 
 - ### SPA shall communicate with back end via REST interface:
 
-   * [[CODE - routes]](https://github.com/Vilk284/web-lab-1-4/blob/master/server/routes.py)
-   * [[CODE - socket.io server]](https://github.com/nVilk284/web-lab-1-4/blob/master/server/poll_api/endpoints.py)
-   * [[CODE - socket.io client]](https://github.com/Vilk284/web-lab-1-4/tree/master/client/static/scripts/polls)
+   * [[CODE - routes]](https://github.com/Vilka284/web-lab-1-4/blob/master/server/routes.py)
+   * [[CODE - chat server]](https://github.com/Vilka284/web-lab-1-4/blob/master/server/room_api/chat.py)
+   * [[CODE - chat client]](https://github.com/Vilka284/web-lab-1-4/blob/master/client/templates/chat.html)
 
 - ### Data exchange shall be done in JSON format:
-   * [CODE](https://github.com/Vilk284/web-lab-1-4/blob/master/client/static/scripts/room/submit_request.js)
+   * [CODE](https://github.com/Vilka284/web-lab-1-4/tree/master/client/static/scripts)
     ```javascript
     contentType: 'application/json; charset=UTF-8',
             data: JSON.stringify({
@@ -33,9 +33,9 @@
 
 - ### Errors nor logs in console:
     * _Screenshot of console:_
-![alt-текст](https://github.com/Vilk284/web-lab-1-4/raw/master/WebDevelopment/Lab4/img/console.png "Console")
-![alt-текст](https://github.com/Vilk284/web-lab-1-4/raw/master/WebDevelopment/Lab4/img/console2.png "Console")
-![alt-текст](https://github.com/Vilk284/web-lab-1-4/raw/master/WebDevelopment/Lab4/img/pyconsole.png "Console")
+![alt-текст](https://github.com/Vilka284/web-lab-1-4/blob/master/WebDevelopment/Lab4/img/console.png "Console")
+![alt-текст](https://github.com/Vilka284/web-lab-1-4/blob/master/WebDevelopment/Lab4/img/console2.png "Console")
+![alt-текст](https://github.com/Vilka284/web-lab-1-4/blob/master/WebDevelopment/Lab4/img/pyconsole.png "Console")
 
 - ### Loading speed less than 4 seconds 
     * _Screenshot of network:_
@@ -52,10 +52,11 @@
     
 - ### After navigation to any page it should be displayed after a refresh. For example, you navigate to /users, press F5, /users page shall be displayed.
     * [requirement completed]
+    
 - ### Put presentation logic in the component class: for example, don’t make arithmetical operations in the template:
-    * [CODE - template](https://github.com/Vilk284/web-lab-1-4/blob/master/client/templates/polls/results.html)
-    * [CODE - script](https://github.com/Vilk284/web-lab-1-4/blob/master/client/static/scripts/polls/main.js)
+    * [CODE - template](https://github.com/Vilka284/web-lab-1-4/blob/master/client/templates/polls/results.html)
+    * [CODE - script](https://github.com/Vilka284/web-lab-1-4/blob/master/client/static/scripts/polls/main.js)
     * _Screenshot:_
-![alt-текст](https://github.com/Vilk284/web-lab-1-4/raw/master/WebDevelopment/Lab4/img/room.png "Room")
+![alt-текст](https://github.com/Vilka284/web-lab-1-4/blob/master/WebDevelopment/Lab4/img/room.png "Room")
 	* _Screenshot:_
-![alt-текст](https://github.com/Vilk284/web-lab-1-4/raw/master/WebDevelopment/Lab4/img/room2.png "Room")
+![alt-текст](https://github.com/Vilka284/web-lab-1-4/blob/master/WebDevelopment/Lab4/img/room2.png "Room")
