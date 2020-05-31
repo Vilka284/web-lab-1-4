@@ -1,0 +1,12 @@
+{
+  "name": "Tronion",
+  "version": "1.0.0",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "server": "^1.0.27",
+    "should": "^13.2.3",
+    "superagent": "^5.2.2"
+  }
+}

@@ -130,6 +130,23 @@
 
 <body>
 <script src="../scripts/onload.js"></script>
+<script type="text/javascript">
+    $(window).scroll(function() {
+   if($(window).scrollTop() + $(window).height() > $(document).height() - 150) {
+       document.getElementById('currentResultChart').style.position = 'fixed';
+       document.getElementById('currentResultChart').style.width = '132px';
+       document.getElementById('currentResultChart').style.height = '82px';
+       document.getElementById('currentResultChart').style.left = '0px';
+       document.getElementById('currentResultChart').style.top = '60px';
+   }else{
+       document.getElementById('currentResultChart').style.position = 'static';
+       document.getElementById('currentResultChart').style.width = '100%';
+       document.getElementById('currentResultChart').style.height = '60%';
+       document.getElementById('currentResultChart').style.margin = 'auto';
+   }
+});
+
+</script>
 <div class="topnav" id="header">
     <a class="tronion" href="/">
             <span>
