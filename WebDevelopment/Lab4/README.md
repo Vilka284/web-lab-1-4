@@ -57,6 +57,10 @@
     * [CODE - template](https://github.com/Vilka284/web-lab-1-4/blob/master/client/templates/polls/results.html)
     * [CODE - script](https://github.com/Vilka284/web-lab-1-4/blob/master/client/static/scripts/polls/main.js)
     * _Screenshot:_
+    
 ![alt-текст](https://github.com/Vilka284/web-lab-1-4/blob/master/WebDevelopment/Lab4/img/room.png "Room")
-	* _Screenshot:_
+
+* _Screenshot:_
+
 ![alt-текст](https://github.com/Vilka284/web-lab-1-4/blob/master/WebDevelopment/Lab4/img/room2.png "Room")
+
