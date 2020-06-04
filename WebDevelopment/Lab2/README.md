@@ -108,12 +108,14 @@
     });
 
 
-}
+  }
 ```
-  ```
+```
   
-- ### At least 3 API endpoints are used:
+  - ### At least 3 API endpoints are used:
    * [CODE](https://github.com/Vilka284/web-lab-1-4/blob/master/server/routes.py)
+```
+
     ```python
     
     @user_api.route("/register", methods=["POST"])
@@ -229,6 +231,7 @@
 - ### Loading speed less than 4 seconds:
 
   * _Screenshot of network:_
+  
 ![alt-текст](https://github.com/Vilka284/web-lab-1-4/raw/master/WebDevelopment/Lab2/img/network.png "Network")
 
 
