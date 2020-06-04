@@ -109,25 +109,15 @@
 
 
 }
-
-$(document).on('submit', '#room-form', function(a){
-    a.preventDefault();
-    update();
-});
-
-document.onload = update();
+```
   ```
   
-  
 - ### At least 3 API endpoints are used:
-
    * [CODE](https://github.com/Vilka284/web-lab-1-4/blob/master/server/routes.py)
     ```python
-@user_api.route("/register", methods=["POST"])
-def create():
-    """
-    Create user function
-      """
+    
+    @user_api.route("/register", methods=["POST"])
+    def create()
 
     data = request.json
 
@@ -162,8 +152,8 @@ def create():
     return jsonify(response), 200
 
 
-@user_api.route("/login_user", methods=["POST"])
-def login():
+    @user_api.route("/login_user", methods=["POST"])
+    def login():
     """
     Login user function
     """
@@ -199,8 +189,8 @@ def login():
     return jsonify(response), 200
 
 
-@user_api.route("/logout_user", methods=["GET"])
-def logout_user():
+    @user_api.route("/logout_user", methods=["GET"])
+    def logout_user():
     response = {'message': 'ok'}
 
     return response, 200
